@@ -21,4 +21,7 @@ let arrow1 = (x) => {
 
 let arrow2 = (x) => x + 1;
 
+console.log("arrow1(1) =>" + arrow1(1));
+console.log("arrow2(2) =>" + arrow2(2));
+
 module.exports = {arrow1, arrow2};
