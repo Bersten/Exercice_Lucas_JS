@@ -16,6 +16,8 @@
  * 
  */
 
-const getGroupName = (obj) => {}
+const getGroupName = (obj) => {
+    return obj?.group?.name;
+}
 
 module.exports = {getGroupName};
