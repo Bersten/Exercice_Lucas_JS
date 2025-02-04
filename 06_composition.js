@@ -52,8 +52,10 @@ const setName = (obj, name) => {
 
 console.log("concat([1, 2, 3], [4, 5, 6]) => " + concat([1, 2, 3], [4, 5, 6]));
 console.log("push([1, 2, 3], 4) => " + push([1, 2, 3], 4));
-console.log("merge({a: 1, b: 2}, {c: 3, d: 4}) => " + merge({a: 1, b: 2}, {c: 3, d: 4}));
-console.log("setName({name: 'toto'}, 'titi') => " + setName({name: 'toto'}, 'titi'));
+console.log("merge({a: 1, b: 2}, {c: 3, d: 4}) =>");
+console.log(merge({a: 1, b: 2}, {c: 3, d: 4}));
+console.log("setName({name: 'toto'}, 'titi') =>");
+console.log(setName({name: 'toto'}, 'titi'));
 
 // astuce: {...obj} crée une copie de l'objet, c'est un des principes de l'immutabilité et évite les problèmes de référence
 module.exports = {concat, push, merge, setName}
